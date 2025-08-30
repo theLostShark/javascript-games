@@ -1,0 +1,72 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    padding: 20px 10px;
+}
+
+.grid{
+width: 360px;
+height: 360px;
+display: flex;
+flex-wrap: wrap;
+background: #310e66;
+background: linear-gradient(180deg, rgba(49, 14, 102, 1) 0%, rgba(255, 135, 157, 1) 100%);
+border-radius: 5px;
+}
+
+.grid div{
+    width: 24px;
+    height: 24px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: Courier New;
+    font-size: 40px;
+    padding: 5px;
+    text-emphasis: center;
+    color: rgb(255, 196, 0);
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    font-family: Courier New;
+    padding: 10px 5px 0px;
+}
+
+.invaders{
+    background-image: url('img/invaders.png');
+}
+
+.spaceship{
+    background-color: rgb(245, 255, 106);
+    background-image: url('img/fighter.png');
+    border-radius: 5px;
+}
+
+.laser{
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.boom{
+background-color: rgb(255, 22, 22);
+border-radius: 50px;
+}
